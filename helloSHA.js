@@ -5,5 +5,6 @@ var crypto = require('crypto');
 var sha1 = function(str) { 
 	return crypto.createHash('sha1').update(str,'ascii').digest('hex');}
 console.log ("hello world SHA1: " + sha1("hello world"));
+console.log ("Hello World SHA1: " + sha1("Hello World"));
 
 
